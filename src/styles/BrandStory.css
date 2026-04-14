@@ -1,0 +1,42 @@
+/* BrandStory.css */
+.brand-story {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.story-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.story-content h3 {
+  font-size: 36px;
+  color: #8b5a3c;
+  margin-bottom: 20px;
+}
+
+.story-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  color: #8b5a3c;
+  border: 2px solid #8b5a3c;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.story-image {
+  flex: 1;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+}
