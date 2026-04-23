@@ -1,6 +1,4 @@
 import React from 'react';
-import AnnouncementBar from './components/AnnouncementBar';
-import Header from './components/Header';
 import MegaCategoryNav from './components/MegaCategoryNav';
 import HeroSlider from './components/HeroSlider';
 import QuickCategories from './components/QuickCategories';
@@ -17,8 +15,7 @@ import './styles/Home.css';
 const Home = () => {
   return (
     <div className="home">
-      <AnnouncementBar />
-      <Header />
+    
       <MegaCategoryNav />
       <HeroSlider />
       <QuickCategories />
